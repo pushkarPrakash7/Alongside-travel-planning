@@ -1,0 +1,49 @@
+.common-section{
+    position: relative;
+}
+
+.search-tour-bar{
+    position: absolute;
+    left: 40%;
+    top: 25%;
+    box-shadow: 2px 2px 5px rgba(0,0,0,1.5);
+}
+
+.tour-content{
+    width: 280px;
+    height: 240px;
+    background-color: #f5f5f5;
+    margin-top: 40px;
+    padding: 5px;
+    
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.navigation{
+   display:  flex;
+   align-items: center;
+   gap: 16px;
+   justify-content: center;
+   margin: 16px;
+   text-align: center;
+}
+
+.navigation span{
+    width : 1.5rem;
+    height: 1.5rem;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.active_page{
+    color: white;
+    background-color: #1d4b4d;
+}

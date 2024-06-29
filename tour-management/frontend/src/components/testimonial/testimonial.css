@@ -1,0 +1,77 @@
+.test-div{
+    height: 500px;
+}
+.test-card{
+    position: relative;
+    background-color: #fff;
+    color: black;
+    height: 450px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.image-card{
+    height: 224px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: #265656; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-card img{
+    height: 176px;
+    width: 176px;
+    border-radius: 50%;
+}
+
+.slick-slide>div{
+    margin: 10px;
+}
+
+.test-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 16px;
+    padding: 16px;;
+}
+
+.first-para{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.test-content button{
+    background-color: #527474;
+    color: white ;
+    font-size: 18px;
+    padding: 4px 24px;
+    border-radius: 12px;
+    position: absolute;
+    top: 90%;
+}
+
+
+.slick-next:before{
+    color: white;
+    content: '';
+    font-weight: 800;
+}
+
+.slick-prev:before{
+    color: white;
+    content: '';
+    font-weight: 800;
+}
+
+button.slick-arrow.slick-next{
+    border-radius: 50%;
+    background-color: #456965;
+}
+button.slick-arrow.slick-prev{
+    border-radius: 50%;
+    background-color: #456965;
+}

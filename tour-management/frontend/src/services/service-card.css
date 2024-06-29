@@ -1,0 +1,21 @@
+.feature-img{
+    width: 200px;
+    height: 200px;
+    transition: transform 0.3s ease-out;
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
+.feature-img:hover{
+    transform : scale(1.1) ;
+    cursor: pointer
+}
+.feature-container
+{
+    margin: 0 48px;
+    width: 350px;
+    height: 370px;
+    border-top: 2px solid #456965;
+    border-right: 2px solid #456965;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.8);
+}

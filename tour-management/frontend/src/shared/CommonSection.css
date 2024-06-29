@@ -1,0 +1,17 @@
+.tours
+{
+    height: 600px;
+    width: full;
+    background-image: url("../assets/images/tour.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.heading-title{
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    color: white;
+    font-size: 3.5rem;
+    text-align: center;
+}
